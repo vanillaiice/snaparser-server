@@ -1,0 +1,11 @@
+# snaparser config
+
+allowed-origins = ["*"]
+allowed-methods = ["POST"]
+port = 8080
+endpoint = "/upload"
+limiter = "normal"
+log = true
+http = true
+key-file = "server.key"
+cert-file = "server.crt"

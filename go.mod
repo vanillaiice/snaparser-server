@@ -2,13 +2,12 @@ module github.com/vanillaiice/snaparser_server
 
 go 1.22.1
 
-require github.com/vanillaiice/snaparser v0.1.4
-
 require (
 	github.com/go-chi/chi/v5 v5.0.12
 	github.com/go-chi/cors v1.2.1
 	github.com/go-chi/httprate v0.9.0
 	github.com/urfave/cli/v2 v2.27.1
+	github.com/vanillaiice/snaparser v0.1.4
 )
 
 require (
